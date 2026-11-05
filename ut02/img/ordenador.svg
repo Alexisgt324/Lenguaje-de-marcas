@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#f1f5f9"/>
+  <rect x="32" y="28" width="200" height="132" rx="8" fill="#182c27"/>
+  <rect x="40" y="36" width="184" height="116" fill="#a7d8ca"/>
+  <rect x="119" y="160" width="24" height="22" fill="#475569"/>
+  <rect x="89" y="182" width="84" height="8" rx="4" fill="#475569"/>
+  <rect x="248" y="44" width="49" height="141" rx="7" fill="#263c36"/>
+  <circle cx="272" cy="164" r="5" fill="#7bd9b3"/>
+  <text x="132" y="99" text-anchor="middle" font-family="Arial" font-size="18" fill="#173a2d">ASIR</text>
+  <text x="132" y="118" text-anchor="middle" font-family="Arial" font-size="11" fill="#173a2d">Inventario del aula</text>
+</svg>
