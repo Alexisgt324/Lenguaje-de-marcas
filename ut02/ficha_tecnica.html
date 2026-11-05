@@ -1,108 +1,206 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <!-- Codificación para caracteres españoles -->
     <meta charset="UTF-8" />
+
+    <!-- Adaptación de la página a móviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Descripción para buscadores -->
     <meta
       name="description"
-      content="Ficha técnica del ordenador MSI MS-7D48 utilizado para las prácticas de ASIR."
+      content="Taller de bicicletas urbanas, de montaña y eléctricas en Madrid. Revisiones, reparaciones y puesta a punto con cita previa."
     />
-    <title>Ficha técnica MSI MS-7D48 - Inventario ASIR</title>
+
+    <!-- Título de la página -->
+    <title>Taller BiciRuta · Reparación y mantenimiento de bicicletas</title>
+
+    <!-- Datos estructurados de Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BikeStore",
+        "name": "Taller BiciRuta",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle del Pedal, 12",
+          "postalCode": "28010",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        },
+        "telephone": "+34915550123",
+        "openingHours": [
+          "Mo-Fr 09:00-14:00",
+          "Mo-Fr 17:00-20:00",
+          "Sa 10:00-14:00"
+        ]
+      }
+    </script>
   </head>
+
   <body>
     <header>
-      <h1>Ficha técnica del ordenador</h1>
-      <p>Inventario del aula de ASIR</p>
+      <img
+        src="img/logo_biciruta.png"
+        alt="Logotipo de BiciRuta"
+        width="320"
+        height="80"
+      />
 
-      <nav aria-label="Secciones del inventario">
-        <a href="#caracteristicas">Características</a>
-        <a href="#componentes">Componentes</a>
-        <a href="#mantenimiento">Mantenimiento</a>
+      <h1>Taller BiciRuta</h1>
+
+      <p>
+        Reparación y mantenimiento de bicicletas urbanas, de montaña y
+        eléctricas.
+      </p>
+
+      <nav aria-label="Secciones del taller">
+        <p>Ir a:</p>
+        <ul>
+          <li><a href="#nosotros">Quiénes somos</a></li>
+          <li><a href="#servicios">Servicios y precios</a></li>
+          <li><a href="#horario">Horario</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section id="caracteristicas">
-        <h2>Características generales</h2>
+      <section id="nosotros">
+        <h2>¿Quiénes somos?</h2>
 
         <p>
-          Ficha técnica elaborada a partir de la información obtenida mediante
-          comandos de PowerShell en Windows.
+          Somos un equipo de tres mecánicos con más de diez años de experiencia.
+          Trabajamos con recambios originales y te damos presupuesto antes de
+          empezar cualquier reparación.
         </p>
 
-        <ul>
-          <li class="dato">Fabricante: Micro-Star International (MSI)</li>
-          <li class="dato">Modelo: MS-7D48</li>
-          <li class="dato">Sistema operativo: Windows 11 Pro de 64 bits</li>
-          <li class="dato">Uso: equipo para prácticas de ASIR</li>
-        </ul>
-      </section>
-
-      <section id="componentes">
-        <h2>Componentes del equipo</h2>
-
-        <dl>
-          <dt>Procesador</dt>
-          <dd>Intel Core i5-13400 de 13.ª generación</dd>
-
-          <dt>Núcleos y procesadores lógicos</dt>
-          <dd>10 núcleos y 16 procesadores lógicos</dd>
-
-          <dt>Memoria RAM</dt>
-          <dd>15,79 GiB detectados por el sistema</dd>
-
-          <dt>Almacenamiento</dt>
-          <dd>Crucial CT240BX500SSD1, 240 GB comerciales</dd>
-
-          <dt>Tarjeta de red</dt>
-          <dd>Realtek PCIe GbE Family Controller</dd>
-        </dl>
-
-        <h2>Imagen del equipo</h2>
+        <p>
+          <strong>
+            Importante: ninguna reparación se hace sin tu aprobación del
+            presupuesto.
+          </strong>
+        </p>
 
         <img
-          src="img/ordenador.svg"
-          alt="Ilustración esquemática de un ordenador de sobremesa"
-          width="320"
-          height="220"
+          src="img/taller.jpg"
+          alt="Ilustración del interior del taller BiciRuta"
+          width="800"
+          height="600"
         />
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios y precios (IVA incluido)</h2>
+
+        <ul>
+          <li>
+            <strong>Revisión básica:</strong>
+            ajuste de frenos y cambios, presión y engrase de cadena.
+            <span class="precio">25,00&nbsp;€</span>
+          </li>
+
+          <li>
+            <strong>Revisión completa:</strong>
+            la básica más centrado de ruedas, revisión de rodamientos y
+            limpieza.
+            <span class="precio">49,00&nbsp;€</span>
+          </li>
+
+          <li>
+            <strong>Cambio de cámara:</strong>
+            <span class="precio">8,00&nbsp;€</span>
+            más el precio de la cámara.
+          </li>
+
+          <li>
+            <strong>Diagnóstico de bicicleta eléctrica:</strong>
+            batería, motor y controlador.
+            <span class="precio">35,00&nbsp;€</span>
+          </li>
+        </ul>
+
+        <h2>Cómo es una revisión (en este orden)</h2>
+
+        <ol>
+          <li>Recepción de la bicicleta y entrevista con el cliente.</li>
+          <li>Diagnóstico y presupuesto.</li>
+          <li>Reparación, una vez aprobado el presupuesto.</li>
+          <li>Prueba en rodillo y entrega.</li>
+        </ol>
+
+        <h3>Consejos de mantenimiento</h3>
 
         <p>
-          La imagen es ilustrativa y no representa necesariamente el modelo
-          físico exacto.
+          Revisa la presión de las ruedas cada dos semanas. Limpia y engrasa la
+          cadena cada 300 km (o después de rodar con lluvia).
         </p>
+
+        <p>
+          Recuerda:
+          <q lang="en">a clean chain is a happy chain</q>, frase en inglés que
+          repite nuestro jefe de taller.
+        </p>
+
+        <img
+          src="img/bici_urbana.jpg"
+          alt="Ilustración de una bicicleta urbana"
+          width="800"
+          height="600"
+        />
+      </section>
+
+      <section id="horario">
+        <h2>Horario</h2>
+
+        <dl>
+          <dt>Lunes a viernes</dt>
+          <dd>9:00-14:00 y 17:00-20:00</dd>
+
+          <dt>Sábados</dt>
+          <dd>10:00-14:00</dd>
+
+          <dt>Domingos y festivos</dt>
+          <dd>Cerrado</dd>
+        </dl>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>
+          Teléfono:
+          <a href="tel:+34915550123"> 91 555 01 23 </a>
+        </p>
+
+        <p>
+          Correo:
+          <a
+            href="mailto:taller@biciruta.example?subject=Cita%20en%20el%20taller"
+          >
+            taller@biciruta.example
+          </a>
+        </p>
+
+        <p>Dirección: Calle del Pedal, 12 · 28010 Madrid</p>
 
         <p>
           <a
-            href="https://www.msi.com/"
+            href="https://www.openstreetmap.org/search?query=Madrid"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Página oficial del fabricante MSI
+            Ver mapa en OpenStreetMap
           </a>
-        </p>
-      </section>
-
-      <section id="mantenimiento">
-        <h2>Pasos para revisar el equipo</h2>
-
-        <ol>
-          <li>Comprobar el modelo y el fabricante.</li>
-          <li>Consultar el procesador y la memoria RAM.</li>
-          <li>Comprobar el almacenamiento disponible.</li>
-          <li>Verificar el sistema operativo y la tarjeta de red.</li>
-          <li>Actualizar los datos del inventario.</li>
-        </ol>
-
-        <p class="dato">
-          Estado: características principales identificadas mediante PowerShell.
         </p>
       </section>
     </main>
 
     <footer>
-      <p>Ficha de inventario - ASIR</p>
-      <p><a href="taller.html">Volver a la página del taller</a></p>
+      <p>
+        <a href="index.html">Volver a la tienda</a>
+      </p>
     </footer>
   </body>
 </html>
